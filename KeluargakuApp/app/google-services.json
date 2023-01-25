@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "421711009805",
+    "project_id": "keluargakuapp-adcec",
+    "storage_bucket": "keluargakuapp-adcec.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:421711009805:android:2ad967c8614050d57e1d44",
+        "android_client_info": {
+          "package_name": "com.example.KeluargaKu"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "421711009805-nppao82bsp6m0ul6jfd09qcvoth5h1jr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCU990ygvaLXsX-GM2QEN3LUsKrAnD4hbs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "421711009805-nppao82bsp6m0ul6jfd09qcvoth5h1jr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:421711009805:android:1a7b7f64830063d17e1d44",
+        "android_client_info": {
+          "package_name": "com.example.belajarviewpager2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "421711009805-nppao82bsp6m0ul6jfd09qcvoth5h1jr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCU990ygvaLXsX-GM2QEN3LUsKrAnD4hbs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "421711009805-nppao82bsp6m0ul6jfd09qcvoth5h1jr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

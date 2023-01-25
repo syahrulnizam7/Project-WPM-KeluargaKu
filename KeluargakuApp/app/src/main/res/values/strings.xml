@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">BelajarViewPager2</string>
+    <string name="judul1">PUSYANRA</string>
+    <string name="judul2">Lancang Kuning</string>
+    <string name="next">Selanjutnya</string>
+    <string name="delivery">Antar</string>
+    <string name="accept">Terima</string>
+    <string name="finish">Selesai</string>
+    <string name="home">Halaman Utama</string>
+    <string name="start">Mulai</string>
+
+    <!-- TODO: Welcome App -->
+    <string name="nama">Pusat Pelayanan Keluarga Sejahtera Lancang Kuning</string>
+    <string name="teksmenu">Menu</string>
+
+    <!-- TODO: Maps -->
+    <string name="API_KEY">AIzaSyC2iofo-svS84AMgxy7aQJN8yt-GLyjtdo</string>
+    <string name="tampilan_normal">Tampilan Normal</string>
+    <string name="tampilan_hybrid">Tampilan Hybrid</string>
+    <string name="tampilan_satelit">Tampilan Satelit</string>
+    <string name="tampilan_terrain">Tampilan Terrain</string>
+
+    <string name="judulKonselor">Detail Profil Konselor</string>
+    <string name="namaKonselor">Nama Dosen</string>
+    <string name="nip">NIP</string>
+    <string name="namamk">Nama MK</string>
+    <string name="ruangan">Ruangan</string>
+    <string name="contoh_nama">Shumaya</string>
+    <string name="kompetensi">Komptensi</string>
+    <string name="judul_utama">List Dosen sistem Informasi</string>
+
+</resources>

@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#ffff"
+    android:layout_height="match_parent">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/avatar"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="55dp"
+        android:layout_marginLeft="30dp"
+        android:layout_alignLeft="@+id/notificon"
+        android:src="@drawable/avatar"
+        app:civ_border_color="#FFFFFF"
+        app:civ_border_width="4dp"
+        />
+
+
+    <TextView
+        android:id="@+id/txtUsername"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="64dp"
+        android:text="Hai, RioSyahrul"
+        android:textColor="@color/hijau"
+        android:textSize="19sp"
+        android:textStyle="bold"
+        android:layout_marginLeft="50dp"
+        />
+
+    <TextView
+        android:id="@+id/txtSelamatDatang"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="88dp"
+        android:layout_marginLeft="50dp"
+        android:text="Selamat datang!"
+        android:textColor="@color/black"
+        android:textSize="16sp" />
+
+    <ImageView
+        android:id="@+id/notificon"
+        android:layout_width="22dp"
+        android:layout_height="22dp"
+        android:layout_marginTop="64dp"
+        android:src="@drawable/notification"
+        android:layout_alignLeft="@+id/txtSelamatDatang"
+        android:layout_marginLeft="240dp"
+        />
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/idViewPager"
+        android:layout_width="370dp"
+        android:layout_height="170dp"
+        android:layout_alignTop="@id/txtSelamatDatang"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="10dp"/>
+
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/idViewPager"
+        android:scrollbars="horizontal">
+
+        <LinearLayout
+            android:id="@+id/linear1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:orientation="horizontal" />
+    </HorizontalScrollView>
+
+    <TextView
+        android:id="@+id/txtBeritaTerbaru"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/linear1"
+        android:layout_marginTop="450dp"
+        android:layout_marginLeft="40dp"
+        android:text="Berita terbaru"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        tools:ignore="NotSibling" />
+    <TextView
+        android:id="@+id/txtLihatSemua"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="450dp"
+        android:layout_alignLeft="@+id/txtBeritaTerbaru"
+        android:layout_marginLeft="250dp"
+        android:text="Lihat Semua >"
+        android:textColor="@color/hijau"
+        android:textSize="14sp"
+        />
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtBeritaTerbaru"
+        android:scrollbars="horizontal">
+
+        <LinearLayout
+            android:id="@+id/linear2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="15dp"
+            android:orientation="horizontal" />
+    </HorizontalScrollView>
+</RelativeLayout>

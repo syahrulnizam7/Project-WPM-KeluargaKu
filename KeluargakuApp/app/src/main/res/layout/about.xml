@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:layout_editor_absoluteX="0dp"
+    tools:layout_editor_absoluteY="0dp">
+
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/bgshape1"
+        android:layout_width="match_parent"
+        android:layout_height="230dp"
+        android:src="@drawable/shapebg"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="-1dp" />
+
+
+    <ImageView
+        android:id="@+id/back"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@drawable/back"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.057"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.069" />
+
+    <TextView
+        android:id="@+id/txtHeader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tentang Kami"
+        android:textColor="@color/kuning"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.079" />
+
+    <ImageView
+        android:id="@+id/aboutpict"
+        android:layout_width="240dp"
+        android:layout_height="240dp"
+        android:layout_marginTop="168dp"
+        android:src="@drawable/aboutpict"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txtJudulAbout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Siapa Kami?"
+        android:textColor="@color/hijau"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/aboutpict" />
+
+    <TextView
+        android:id="@+id/txtIsiTentang"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Pusyanra adalah Pusat pelayanan keluarga sejahtera. Atau dikenal dengan PPKS. Pusyanra adalah Model Pelayanan terpadu yang mengedepankan motto pelayanan prima dan profesional dengan memperhatikan kebutuhan keluarga dan menjangkau semua rentang kehidupan manusia dari Balita,Remaja,sampai Lansia.
+Didalam pelaksanaan programnya PUSYANRA LANCANG KUNING BKKBN RIAU. melakukan pemberian informasi, pembinaan, konsultasi dan konseling mengenai program BANGGA KENCANA. dimana di pusyanra lancang kuning dilayani 8 pokok pelayanan."
+        android:textColor="@color/black"
+        android:textSize="15dp"
+        android:justificationMode="inter_word"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtJudulAbout" />
+
+    <TextView
+        android:id="@+id/txtIsiT"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Pusyanra adalah Pusat pelayanan keluarga sejahtera. Atau dikenal dengan PPKS. Pusyanra adalah Model Pelayanan terpadu yang mengedepankan motto pelayanan prima dan profesional dengan memperhatikan kebutuhan keluarga dan menjangkau semua rentang kehidupan manusia dari Balita,Remaja,sampai Lansia.
+Didalam pelaksanaan programnya PUSYANRA LANCANG KUNING BKKBN RIAU. melakukan pemberian informasi, pembinaan, konsultasi dan konseling mengenai program BANGGA KENCANA. dimana di pusyanra lancang kuning dilayani 8 pokok pelayanan."
+        android:textColor="@color/black"
+        android:textSize="15dp"
+        android:justificationMode="inter_word"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtIsiTentang" />
+
+    <fragment
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:map="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="300dp"
+        android:layout_height="400dp"
+        tools:ignore="MissingConstraints"
+        android:layout_marginBottom="30dp"
+        android:layout_marginTop="30dp"
+        app:layout_constraintTop_toBottomOf="@+id/txtIsiT"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:context=".MapsActivity" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

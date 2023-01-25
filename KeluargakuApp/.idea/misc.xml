@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/BelajarViewPager2_EAAD2/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1" />
+        <entry key="..\:/BelajarViewPager2_EAAD2/app/src/main/res/drawable/fragment_splash_screen.xml" value="0.1" />
+        <entry key="..\:/BelajarViewPager2_EAAD2/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1" />
+        <entry key="..\:/BelajarViewPager2_EAAD2/app/src/main/res/layout/activity_main.xml" value="0.17806484295845998" />
+        <entry key="..\:/BelajarViewPager2_EAAD2/app/src/main/res/layout/fragment_halaman_kedua.xml" value="0.1" />
+        <entry key="..\:/BelajarViewPager2_EAAD2/app/src/main/res/layout/fragment_halaman_ketiga.xml" value="0.1" />
+        <entry key="..\:/BelajarViewPager2_EAAD2/app/src/main/res/layout/fragment_halaman_pertama.xml" value="0.1" />
+        <entry key="..\:/BelajarViewPager2_EAAD2/app/src/main/res/layout/fragment_halaman_utama.xml" value="0.1" />
+        <entry key="..\:/BelajarViewPager2_EAAD2/app/src/main/res/layout/fragment_splash_screen.xml" value="0.1" />
+        <entry key="..\:/BelajarViewPager2_EAAD2/app/src/main/res/layout/fragment_splash_screen2.xml" value="0.1" />
+        <entry key="..\:/BelajarViewPager2_EAAD2/app/src/main/res/layout/fragment_view_pager.xml" value="0.1" />
+        <entry key="..\:/Muhammad Syahrul Nizam_3 SIA/Project Praktikum_Muhammad Syahrul Nizam_3 SIA/BelajarViewPager2/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/Muhammad Syahrul Nizam_3 SIA/Project Praktikum_Muhammad Syahrul Nizam_3 SIA/BelajarViewPager2/app/src/main/res/layout/fragment_halaman_ketiga.xml" value="0.1" />
+        <entry key="..\:/Muhammad Syahrul Nizam_3 SIA/Project Praktikum_Muhammad Syahrul Nizam_3 SIA/BelajarViewPager2/app/src/main/res/layout/fragment_halaman_pertama.xml" value="0.1" />
+        <entry key="..\:/Muhammad Syahrul Nizam_3 SIA/Project Praktikum_Muhammad Syahrul Nizam_3 SIA/BelajarViewPager2/app/src/main/res/layout/fragment_halaman_utama.xml" value="0.1" />
+        <entry key="..\:/Muhammad Syahrul Nizam_3 SIA/Project Praktikum_Muhammad Syahrul Nizam_3 SIA/BelajarViewPager2/app/src/main/res/layout/fragment_splash_screen.xml" value="0.1" />
+        <entry key="..\:/Muhammad Syahrul Nizam_3 SIA/Project Praktikum_Muhammad Syahrul Nizam_3 SIA/BelajarViewPager2/app/src/main/res/layout/fragment_view_pager.xml" value="0.16" />
+        <entry key="..\:/Muhammad Syahrul Nizam_3 SIA/Project Praktikum_Muhammad Syahrul Nizam_3 SIA/KeluargakuApp/app/src/main/res/drawable/rounded_buton.xml" value="0.1185" />
+        <entry key="..\:/Muhammad Syahrul Nizam_3 SIA/Project Praktikum_Muhammad Syahrul Nizam_3 SIA/KeluargakuApp/app/src/main/res/drawable/shape.xml" value="0.1185" />
+        <entry key="..\:/Muhammad Syahrul Nizam_3 SIA/Project Praktikum_Muhammad Syahrul Nizam_3 SIA/KeluargakuApp/app/src/main/res/layout/activity_main.xml" value="0.18" />
+        <entry key="..\:/Muhammad Syahrul Nizam_3 SIA/Project Praktikum_Muhammad Syahrul Nizam_3 SIA/KeluargakuApp/app/src/main/res/layout/daftar.xml" value="0.2" />
+        <entry key="..\:/Muhammad Syahrul Nizam_3 SIA/Project Praktikum_Muhammad Syahrul Nizam_3 SIA/KeluargakuApp/app/src/main/res/layout/fragment_halaman_kedua.xml" value="0.22" />
+        <entry key="..\:/Muhammad Syahrul Nizam_3 SIA/Project Praktikum_Muhammad Syahrul Nizam_3 SIA/KeluargakuApp/app/src/main/res/layout/fragment_halaman_ketiga.xml" value="0.2" />
+        <entry key="..\:/Muhammad Syahrul Nizam_3 SIA/Project Praktikum_Muhammad Syahrul Nizam_3 SIA/KeluargakuApp/app/src/main/res/layout/fragment_halaman_pertama.xml" value="0.33" />
+        <entry key="..\:/Muhammad Syahrul Nizam_3 SIA/Project Praktikum_Muhammad Syahrul Nizam_3 SIA/KeluargakuApp/app/src/main/res/layout/fragment_halaman_utama.xml" value="0.1" />
+        <entry key="..\:/Muhammad Syahrul Nizam_3 SIA/Project Praktikum_Muhammad Syahrul Nizam_3 SIA/KeluargakuApp/app/src/main/res/layout/fragment_splash_screen.xml" value="0.22" />
+        <entry key="..\:/Muhammad Syahrul Nizam_3 SIA/Project Praktikum_Muhammad Syahrul Nizam_3 SIA/KeluargakuApp/app/src/main/res/layout/fragment_view_pager.xml" value="0.365625" />
+        <entry key="..\:/Muhammad Syahrul Nizam_3 SIA/Project Praktikum_Muhammad Syahrul Nizam_3 SIA/KeluargakuApp/app/src/main/res/layout/login.xml" value="0.5" />
+        <entry key="..\:/Workshop pemograman mobile/New folder/BelajarViewPager2_EAAD2/app/src/main/res/layout/activity_main.xml" value="0.22407407407407406" />
+        <entry key="..\:/Workshop pemograman mobile/New folder/BelajarViewPager2_EAAD2/app/src/main/res/layout/fragment_halaman_kedua.xml" value="0.36666666666666664" />
+        <entry key="..\:/Workshop pemograman mobile/New folder/BelajarViewPager2_EAAD2/app/src/main/res/layout/fragment_halaman_ketiga.xml" value="0.1" />
+        <entry key="..\:/Workshop pemograman mobile/New folder/BelajarViewPager2_EAAD2/app/src/main/res/layout/fragment_halaman_pertama.xml" value="0.22407407407407406" />
+        <entry key="..\:/Workshop pemograman mobile/New folder/BelajarViewPager2_EAAD2/app/src/main/res/layout/fragment_halaman_utama.xml" value="0.1" />
+        <entry key="..\:/Workshop pemograman mobile/New folder/BelajarViewPager2_EAAD2/app/src/main/res/layout/fragment_splash_screen.xml" value="0.22407407407407406" />
+        <entry key="..\:/Workshop pemograman mobile/New folder/BelajarViewPager2_EAAD2/app/src/main/res/layout/fragment_view_pager.xml" value="0.1" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

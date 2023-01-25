@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="2dp"
+    app:cardElevation="10dp"
+    app:cardPreventCornerOverlap="false"
+    android:backgroundTint="@color/hijau">
+
+    <RelativeLayout
+        android:id="@+id/rl_klik"
+        android:layout_width="428dp"
+        android:layout_height="match_parent"
+        android:focusable="true"
+        android:foreground="?selectableItemBackground"
+        >
+
+
+        <ImageView
+            android:id="@+id/gambar_dosen"
+            android:layout_width="match_parent"
+            android:layout_height="157dp"
+            android:background="@color/white"
+            android:scaleType="centerCrop"
+            android:src="@drawable/berita1"
+            />
+
+        <TextView
+            android:id="@+id/nama_dosen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="160dp"
+            android:text="contoh_nama"
+            android:textColor="@color/kuning"
+            android:textSize="14sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/kompetensi_dosen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/nama_dosen"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="4dp"
+            android:alpha="0.5"
+            android:text="kompetensi"
+            android:textColor="#000000"
+            android:textSize="12sp" />
+
+
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

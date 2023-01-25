@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="2dp"
+    app:cardElevation="10dp"
+    app:cardPreventCornerOverlap="false">
+
+    <RelativeLayout
+        android:id="@+id/rl_klik"
+        android:layout_width="428dp"
+        android:layout_height="match_parent"
+        android:focusable="true"
+        android:foreground="?selectableItemBackground">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/gambar_dosen"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="30dp"
+            android:src="@mipmap/ic_launcher" />
+
+        <TextView
+            android:id="@+id/nama_dosen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="30dp"
+            android:layout_toEndOf="@+id/gambar_dosen"
+            android:text="contoh_nama"
+            android:textColor="@color/hijau"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/kompetensi_dosen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/nama_dosen"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="6dp"
+            android:layout_toEndOf="@+id/gambar_dosen"
+            android:alpha="0.5"
+            android:text="kompetensi"
+            android:textColor="#000000"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/btnLogin"
+            android:layout_width="90dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="280dp"
+            android:layout_marginTop="30dp"
+            android:textSize="9dp"
+            android:backgroundTint="@color/hijau"
+            android:text="chat"
+            android:textColor="@color/kuning"
+            android:textStyle="bold" />
+        />
+
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>
